@@ -1,5 +1,5 @@
 # fDialog
-Grand Roleplay insiper NUI dialog
+Grand Roleplay inspired NUI dialog
 
 
 # Exports
