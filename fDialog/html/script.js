@@ -32,7 +32,7 @@ function startNotification(e) {
   <div class="center">
     <div class="btns">
       <div class="center">
-        <div class="agree-btn"><span>AGREE</span><button>Y</button></div>
+        <div class="agree-btn"><span>ACCEPT</span><button>Y</button></div>
         <div class="decline-btn"><button>N</button><span>DECLINE</span></div>
       </div>
     </div>
