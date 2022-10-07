@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "RistrettoPro-Regular";
+  src: url('fonts/font.woff2') format('woff2'), url('fonts/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'URW DIN Arabic Cond';
+  src: url('fonts/URWDINArabicCond-Black.woff2') format('woff2'),
+    url('fonts/URWDINArabicCond-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Neusa';
+  src: url('fonts/Neusa-SemiBold.woff2') format('woff2'),
+    url('fonts/Neusa-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'OstrichSans-Heavy';
+  src: url('fonts/OstrichSans-Heavy.woff2') format('woff2'),
+    url('fonts/OstrichSans-Heavy.woff') format('woff'),
+}
+
+@font-face {
+  font-family: "Bebas Nue";
+  src: url("./fonts/BebasNeuePro-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: "Bebas Nue";
+}
+
+#body {
+  height: 100vh;
+  overflow: hidden;
+
+  /*background: url(images/logo.png), linear-gradient(5.9deg, rgba(252, 215, 8, 0.556) 0%, rgba(202, 24, 24, 0) 36.02%, rgba(26, 25, 25, 0.9) 84.1%, rgba(26, 25, 25, 0.9) 100%, rgba(128, 128, 128, 1) 100%)rgba(26, 25, 25, 0.7);
+  background-repeat: no-repeat;
+  background-size: 13vw, 100%;
+  background-position: 70vw 5vh, center center;*/
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 20vw;
+  height: 20vh;
+  margin-top: 4vh;
+  animation: slideInDown;
+  animation-duration: 1.5s
+}
+
+.header-text {
+  text-align: center;
+  color: rgb(210, 210, 210);
+}
+
+.header-text span {
+  font-family: 'Neusa';
+  font-size: 0.9vw;
+}
+
+
+.header-text div {
+  border: 1px solid rgb(210, 210, 210);
+  width: 3.6vw;
+  position: relative;
+  display: inline-block;
+  left: -1vw;
+  top: -0.4vh;
+}
+
+.header-text .right-line {
+  left: 1vw;
+}
+
+
+.container-message {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  width: 15vw;
+  font-size: 1.4vw;
+  line-height: 3vh;
+  margin-top: 2vh;
+}
+
+.btns {
+  width: 100%;
+  height: 6vh;
+}
+
+.btns .decline-btn span {
+  color: rgb(143, 9, 9);
+  position: absolute;
+  margin-top: 2.7vh;
+  font-size: 1vw;
+  font-family: 'Neusa';
+  margin-left: 0.5vw;
+}
+
+.btns .decline-btn button {
+  background-color: rgb(196, 4, 4);
+  font-size: 2vw;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5vh 1vw;
+  border: none;
+  border-radius: 3vw;
+  margin: 0.8vw;
+
+}
+
+
+.btns .agree-btn span {
+  color: rgb(122, 203, 0);
+  position: absolute;
+  margin-top: 2vh;
+  font-size: 1vw;
+  font-family: 'Neusa';
+  margin-left: -3vw;
+}
+
+.btns .agree-btn button {
+  background-color: greenyellow;
+  font-size: 2vw;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5vh 1vw;
+  border: none;
+  border-radius: 3vw;
+  margin: 0.5vw;
+}
+
+::-webkit-scrollbar {
+  width: 0.3vw;
+  border-radius: 50px;
+  background-color: rgba(25, 25, 25, 0.248);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 217, 0, 0.86);
+  border-radius: 25px;
+}
